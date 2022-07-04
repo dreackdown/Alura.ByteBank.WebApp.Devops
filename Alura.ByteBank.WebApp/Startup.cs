@@ -1,6 +1,3 @@
-using Alura.ByteBank.Aplicacao.AplicacaoServico;
-using Alura.ByteBank.Aplicacao.Interfaces;
-using Alura.ByteBank.Dados.Contexto;
 using Alura.ByteBank.Dados.Repositorio;
 using Alura.ByteBank.Dominio.Interfaces.Repositorios;
 using Alura.ByteBank.WebApp.Util;
@@ -8,16 +5,12 @@ using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.IdentityModel.Tokens;
 using System;
-using System.Collections.Generic;
-using System.Linq;
 using System.Text;
-using System.Threading.Tasks;
 
 namespace Alura.ByteBank.WebApp
 {
