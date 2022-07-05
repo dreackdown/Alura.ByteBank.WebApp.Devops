@@ -20,7 +20,6 @@ namespace Alura.ByteBank.Dados.Contexto
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {
-
             modelBuilder.Entity<Cliente>(entity =>
             {
                 entity.ToTable("cliente");
@@ -65,6 +64,5 @@ namespace Alura.ByteBank.Dados.Contexto
 
             base.OnModelCreating(modelBuilder);
         }
-
     }
 }
