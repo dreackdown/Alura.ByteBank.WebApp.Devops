@@ -61,7 +61,6 @@ namespace Alura.ByteBank.Dados.Contexto
                 entity.Property(e => e.Email).IsRequired();
                 entity.Property(e => e.Senha).IsRequired();
             });
-
             base.OnModelCreating(modelBuilder);
         }
     }
